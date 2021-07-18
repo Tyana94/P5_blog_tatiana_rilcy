@@ -1,0 +1,168 @@
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:rgb(#d2b48c);
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+
+
+
+
+/************************************* MENU DE NAVIGATION ****************************************************************************************************
+********************************************************************************************************************************************************************************************************/
+
+
+/* Barre de navigation */
+#mainNav {
+  background-color: #d2b48c; /* Le fond de la barre de navigation sera beige */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+}
+
+#mainNav .navbar-toggler { /* Réglages du menu de navigation */
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: rgb(166 166 83);
+}
+
+/* Logo */
+#mainNav .logo-festival {
+  max-height: 50px; /* Réglage de la hauteur max du logo */
+}
+
+#mainNav .mapolice1 {
+  font-family: robotoregular, sans-serif; /* Définition de la police 1 pour le logo-nom */
+  font-weight: 900; /* Mise en gras de la police */
+  padding: 5px;
+
+}
+
+#mainNav .mapolice2 {
+  font-family: 'Georgia'; /* Définition de la police 2 pour le logo-nom */
+}
+
+#mainNav .navbar-brand {
+  color: rgb(54, 207, 254);
+  font-size: 1.5em;
+}
+
+/* Liens menu */
+#mainNav .navbar-nav .nav-item .nav-link { /* Réglages du menu de navigation */
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  padding: 10px;
+}
+
+#mainNav .navbar-nav .nav-item, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #7e5835; /* Le texte des sections passe au bleu au survol */
+  font-weight: bold;
+}
+
+#mainNav .nav-item, #mainNav .navbar-nav .nav-item {
+  color: red; /* Le texte des sections passe au jaune au survol */
+}
+
+
+.mapolice1, .mapolice2 {
+  color: #385E72;
+  font-family: comic sans ms;
+    }
+
+nav {
+  width: 100%;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  float: left;
+  position: relative;
+}
+
+nav > ul::after {
+  display: table;
+  clear:both;
+}
+
+nav label {
+  display: none;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav > ul >li > a {
+  padding: 20px 30px;
+  color: #FFF;
+}
+
+nav > ul> li:hover a {
+  padding: 15p 30px 20px 30px;
+}
+
+
+
+
+
+
+
+ /**** BANNIERE ***************************************************************************************************
+***************************************************************************************************************************************************************************************************************************/
+
+.container-fluid {
+  position: relative;
+}
+
+.title-intro {
+  position: absolute;
+  top: 18%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  padding-top: 70%;
+  padding-left: 8%;
+}
