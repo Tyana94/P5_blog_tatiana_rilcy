@@ -54,24 +54,6 @@ class BackendController {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Afficher un article    
     public function modif($id)
     {
@@ -96,7 +78,6 @@ class BackendController {
 
 
 
-
 //Afficher    
   //  public function supp($id)
    // {
@@ -118,13 +99,6 @@ class BackendController {
     }
     header('Location: /blog/public/');
 }
-
-
-
-
-
-
-
 
 
 // Supprimer un commentaire    

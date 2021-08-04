@@ -22,12 +22,6 @@ class AccountController {
 
         include('../app/views/profil.php');
 
-
-
-        
-
-
-
     }
 
 

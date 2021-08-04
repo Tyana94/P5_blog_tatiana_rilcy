@@ -35,19 +35,6 @@ class LoginManager extends Model
     } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Connexion
     public function connect()
     {

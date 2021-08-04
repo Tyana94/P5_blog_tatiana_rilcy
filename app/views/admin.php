@@ -79,19 +79,6 @@ if(!empty($_POST)) {
           }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 if(isset($_GET['approuve']) AND !empty($_GET['approuve'])) {
   $approuve = (int)_GET['approuve'];
 

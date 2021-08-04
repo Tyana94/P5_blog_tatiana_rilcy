@@ -23,7 +23,6 @@ class PostManager extends Model {
     }
 
 
-
 // Afficher 
     public function affiche($id)
     {

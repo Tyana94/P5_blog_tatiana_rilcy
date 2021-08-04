@@ -19,15 +19,6 @@ class FrontendController {
     }
 
 
-
-
-
-
-
-
-    
-
-
 // Connexion GET
     public function login()
     {
